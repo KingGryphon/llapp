@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <>
-      Homepage
+      <Header/>
+      <Nav/>
+      <Main/>
+      <Footer/>
     </>
   );
 }
