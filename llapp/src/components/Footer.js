@@ -4,12 +4,12 @@ function Footer(){
 return (
     <footer>
         <div>
-            <img src="logo.svg" alt="Little Lemon Logo"/>
+            <img src="./logo.svg" alt="Little Lemon Logo"/>
         </div>
         <div id="nav">
             <h4>Navigation</h4>
             <ul>
-            <li><a href="/Home" >Home</a></li>
+                <li><a href="/Home" >Home</a></li>
                 <li><a href="/About">About</a></li>
                 <li><a href="/Menu">Menu</a></li>
                 <li><a href="/Reservations">Reservations</a></li>
