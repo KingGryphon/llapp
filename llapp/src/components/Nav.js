@@ -3,14 +3,14 @@
 function Nav(){
 
     return (
-        <nav>
-            <ul>
-                <li><a href="/Home" >Home</a></li>
-                <li><a href="/About">About</a></li>
-                <li><a href="/Menu">Menu</a></li>
-                <li><a href="/Reservations">Reservations</a></li>
-                <li><a href="/Order_Online">Order Online</a></li>
-                <li><a href="/Login">Login</a></li>
+        <nav style={{ backgroundColor: '#FBDABB', alignItems: 'center' }}>
+            <ul style={{ alignItems: 'center' }}>
+                <li style={{display: 'inline-block', margin: '2px'}}><a href="/Home" >Home</a></li>
+                <li style={{display: 'inline-block', margin: '2px'}}><a href="/About">About</a></li>
+                <li style={{display: 'inline-block', margin: '2px'}}><a href="/Menu">Menu</a></li>
+                <li style={{display: 'inline-block', margin: '2px'}}><a href="/Reservations">Reservations</a></li>
+                <li style={{display: 'inline-block', margin: '2px'}}><a href="/Order_Online">Order Online</a></li>
+                <li style={{display: 'inline-block', margin: '2px'}}><a href="/Login">Login</a></li>
             </ul>
         </nav>
 )}
