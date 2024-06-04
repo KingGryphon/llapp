@@ -2,9 +2,9 @@ import Header from './Header'
 
 
 const styling = {
-    display: 'grid',
+    display: 'grid-row',
     margin: '2px',
-    grid: 'row',
+    gridAutoRow: '100px',
 };
 function Nav(){
 
