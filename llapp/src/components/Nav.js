@@ -1,18 +1,26 @@
 import Header from './Header'
 
+
+const styling = {
+    display: 'grid',
+    margin: '2px',
+    grid: 'row',
+};
 function Nav(){
 
     return (
-        <nav style={{ backgroundColor: '#FBDABB', alignItems: 'center' }}>
-            <Header style={{alignItems: 'left'}}/>
-            <div >
-                <ul style={{ alignItems: 'right' }}>
-                    <li style={{display: 'inline-block', margin: '2px'}}><a href="/Home" >Home</a></li>
-                    <li style={{display: 'inline-block', margin: '2px'}}><a href="/About">About</a></li>
-                    <li style={{display: 'inline-block', margin: '2px'}}><a href="/Menu">Menu</a></li>
-                    <li style={{display: 'inline-block', margin: '2px'}}><a href="/Reservations">Reservations</a></li>
-                    <li style={{display: 'inline-block', margin: '2px'}}><a href="/Order_Online">Order Online</a></li>
-                    <li style={{display: 'inline-block', margin: '2px'}}><a href="/Login">Login</a></li>
+        <nav style={{ backgroundColor: '#FBDABB', display: 'inline-block' }}>
+
+            <div style={{display: 'grid'}}>
+                <Header style={{alignItems: 'left', display: 'grid'}}/>
+
+                <ul style={{ alignItems: 'center' }}>
+                    <li style={styling}><a href="/Home" >Home</a></li>
+                    <li style={styling}><a href="/About">About</a></li>
+                    <li style={styling}><a href="/Menu">Menu</a></li>
+                    <li style={styling}><a href="/Reservations">Reservations</a></li>
+                    <li style={styling}><a href="/Order_Online">Order Online</a></li>
+                    <li style={styling}><a href="/Login">Login</a></li>
                 </ul>
             </div>
         </nav>
